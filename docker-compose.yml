@@ -18,7 +18,7 @@ services:
     depends_on:
       - registry
   apache:
-    image: "httpd:2.4"
+    image: "httpd:2.4.41-alpine"
     hostname: myregistrydomain.com
     ports:
       - 5000:5000      
